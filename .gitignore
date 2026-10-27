@@ -1,0 +1,21 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Downloaded model weights (fetched automatically on first run)
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Lab 7: GAN snapshots written on every epoch (4 samples are kept in gan_samples/)
+lab07_unsupervised_generative/image_at_epoch_*.png
+
+# Lab 8: Flickr8k dataset and generated files (see lab08_recurrent_networks/DATA.md)
+lab08_recurrent_networks/archive/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
